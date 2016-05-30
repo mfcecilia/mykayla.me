@@ -2,15 +2,18 @@
 {
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
+  font-size: 300;
 }
 
 #main-b
 {
   font-weight: 200;
   font-family: 'Rubik', sans-serif;
+  font-size: 100;
 }
 
 .main-intro
 {
   text-align: center;
+  vertical-align: middle;
 }
