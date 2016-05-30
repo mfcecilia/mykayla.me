@@ -12,6 +12,13 @@
   font-size: 100;
 }
 
+#main-c
+{
+  font-weight: lighter;
+  font-family: 'Rubik', sans-serif;
+  font-size: 25;
+}
+
 .main-intro
 {
   text-align: center;
