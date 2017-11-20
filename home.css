@@ -1,0 +1,83 @@
+.intro
+{
+  text-align: center;
+}
+
+#name
+{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-size: 200;
+}
+
+#titles
+{
+    margin-top: 1em;
+    font-weight: 200;
+    font-family: 'Rubik', sans-serif;
+    font-size: 50;
+}
+
+.social-media
+{
+    margin-top: 3em;
+    display: flex;
+    font-weight: lighter;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25;
+}
+
+.social-media div {
+    margin: auto;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5em;
+    border-style: solid;
+    border-radius: 2em;
+    border-color: white;
+}
+
+#linkedin :hover {
+    border-style: solid;
+    border-radius: 2em;
+    border-color: #9400D3;
+}
+
+#devpost :hover {
+    border-style: solid;
+    border-radius: 2em;
+    border-color: #4B0082;
+}
+
+#github :hover {
+    border-style: solid;
+    border-radius: 2em;
+    border-color: #0000FF;
+}
+
+#twitter :hover {
+    border-style: solid;
+    border-radius: 2em;
+    border-color: #00FF00;
+}
+
+#twitch :hover {
+    border-style: solid;
+    border-radius: 2em;
+    border-color: #FFFF00;
+}
+
+#tumblr :hover {
+    border-style: solid;
+    border-radius: 2em;
+    border-color: #FF7F00;
+}
+
+#youtube :hover {
+    border-style: solid;
+    border-radius: 2em;
+    border-color: #FF0000;
+}
