@@ -1,32 +1,64 @@
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="home.css">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="links.css">
+    <link rel="stylesheet" type="text/css" href="tabs.css">
     <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    
+    <script type="text/javascript" src="tabs.js"></script>
+    
     <title>Mykayla Fernandes</title>
 </head>
     
 <body>
   <div class = "intro">
-    <div id = "name">Mykayla Fernandes</div>
-    <div id = "titles">designer|developer</div>
+      <div id = "name">Mykayla Fernandes</div>
+      <div id = "titles">designer|developer</div>
+      <div class="social-media">
+          <div id="linkedin"><a href="https://www.linkedin.com/in/mykaylafernandes" target="_blank">linkedin
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i></a></div>
+          <div id="devpost"><a href="https://www.devpost.com/mfcecilia" target="_blank">devpost
+                <i class="fa fa-code" aria-hidden="true"></i></a></div>
+          <div id="github"><a href="https://www.github.com/mfcecilia" target="_blank">github
+                <i class="fa fa-github" aria-hidden="true"></i></a></div>
+          <div id="twitter"><a href="https://www.twitter.com/mfcecilia1" target="_blank">twitter
+                <i class="fa fa-twitter-square" aria-hidden="true"></i></a></div>
+          <div id="twitch"><a href="https://www.twitch.tv/mfcecilia" target="_blank">twitch
+                <i class="fa fa-twitch" aria-hidden="true"></i></a></div>
+          <div id="tumblr"><a href="https://cecilia-mf.tumblr.com/" target="_blank">tumblr
+                <i class="fa fa-tumblr-square" aria-hidden="true"></i></a></div>
+          <div id="youtube"><a href="https://www.youtube.com/channel/UCzKtbABDDqxbK7qoRa34jsA" target="_blank">youtube
+                <i class="fa fa-youtube-play" aria-hidden="true"></i></a></div>
+      </div>
       
-    <div class="social-media">
-        <div id="linkedin"><a href="https://www.linkedin.com/in/mykaylafernandes" target="_blank">linkedin
-            <i class="fa fa-linkedin-square" aria-hidden="true"></i></a></div>
-        <div id="devpost"><a href="https://www.devpost.com/mfcecilia" target="_blank">devpost
-            <i class="fa fa-code" aria-hidden="true"></i></a></div>
-        <div id="github"><a href="https://www.github.com/mfcecilia" target="_blank">github
-            <i class="fa fa-github" aria-hidden="true"></i></a></div>
-        <div id="twitter"><a href="https://www.twitter.com/mfcecilia1" target="_blank">twitter
-            <i class="fa fa-twitter-square" aria-hidden="true"></i></a></div>
-        <div id="twitch"><a href="https://www.twitch.tv/mfcecilia" target="_blank">twitch
-            <i class="fa fa-twitch" aria-hidden="true"></i></a></div>
-        <div id="tumblr"><a href="https://cecilia-mf.tumblr.com/" target="_blank">tumblr
-            <i class="fa fa-tumblr-square" aria-hidden="true"></i></a></div>
-        <div id="youtube"><a href="https://www.youtube.com/channel/UCzKtbABDDqxbK7qoRa34jsA" target="_blank">youtube
-            <i class="fa fa-youtube-play" aria-hidden="true"></i></a></div>
-    </div>
+      <div id='menu'>
+          <ul class="tabs group">
+              <li class='active' onclick="tab_select()">
+                  <a href='#home'>
+                    <i class="fa fa-home fa-2x" aria-hidden="true"></i>
+                  </a>
+              </li>
+              <li onclick="tab_select()">
+                  <a href='#about'>
+                    <i class="fa fa-question-circle-o fa-2x" aria-hidden="true"></i>
+                  </a>
+              </li>
+              <li onclick="tab_select()">
+                  <a href='#portfolio'>
+                    <i class="fa fa-paint-brush fa-2x" aria-hidden="true"></i>
+                  </a>
+              </li>
+              <li onclick="tab_select()">
+                  <a href='#hobbies'>
+                  <i class="fa fa-lightbulb-o fa-2x" aria-hidden="true"></i>
+                  </a>
+              </li>
+        </ul>
+      </div>
   </div>
 </body>
 </html>

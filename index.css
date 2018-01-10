@@ -1,0 +1,22 @@
+.intro
+{
+    text-align: center;
+    width: auto;
+}
+
+#name
+{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 150;
+    width: auto;
+}
+
+#titles
+{
+    margin-top: 1em;
+    font-weight: 200;
+    font-family: 'Rubik', sans-serif;
+    font-size: 50;
+    width: auto;
+}
