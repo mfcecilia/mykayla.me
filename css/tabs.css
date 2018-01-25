@@ -1,8 +1,12 @@
 #menu {
     border-bottom: black solid 5px;
-    width: 50%;
+    width: 100%;
     text-align: center;
-    display: inline-block;
+    display: block;
+    clear: both;
+    position: relative;
+    margin-top: 3em;
+    flex-wrap: wrap;
 }
 
 .group:before,
@@ -22,9 +26,11 @@
 .tabs {
     list-style: none;
     text-align: center;
-    display: inline-block;
+    display: flex;
     margin-top: 10em;
     margin-bottom: -3;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .tabs li { 
