@@ -1,0 +1,10 @@
+.menu ul {
+    list-style: none;
+    width: auto;
+}
+
+.menu ul li {
+    float: left;
+    padding: 0.5em;
+    width: auto;
+}

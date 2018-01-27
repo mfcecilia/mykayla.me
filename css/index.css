@@ -1,22 +1,61 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .intro
 {
-    text-align: center;
     width: auto;
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
 }
 
 #name
 {
-    font-family: 'Rubik', sans-serif;
     font-weight: 300;
     font-size: 150;
     width: auto;
+    order: 1;
 }
 
 #titles
 {
-    margin-top: 1em;
+    padding: 1em;
     font-weight: 200;
-    font-family: 'Rubik', sans-serif;
     font-size: 50;
     width: auto;
+    order: 2;
+}
+
+#line {
+    font-weight: 500;
+    font-weight: bolder;
+    font-size: 30;
+    color: #ccc;
+    order: 3;
+}
+
+.social-media
+{
+    font-weight: lighter;
+    font-size: 25;
+    width: auto;
+    padding: 1em;
+    order: 4;
+}
+
+.menu {
+    border-bottom: black solid 5px;
+    width: auto;
+    padding: 1em;
+    order: 5;
+}
+
+@-ms-viewport{
+  width: device-width;
 }
