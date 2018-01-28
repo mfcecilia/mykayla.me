@@ -63,11 +63,12 @@ html {
 
 .content {
     order: 6;
+    width: auto;
     display: flex;
     display: -webkit-flex;
-    justify-content: center;
-    align-content: center;
-    width: auto;
+    flex-flow: column;
+    margin: auto;
+    padding: 3em;
 }
 
 @-ms-viewport{

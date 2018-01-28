@@ -55,12 +55,12 @@
                   
           <div class="menu" id='menu'>
             <ul class="menu-btns">
-                <li class="edu-btn" id="edu-btn">
+                <li class="edu-btn" id="edu-btn" onclick="edu_select()">
                   <a href='#edu' data-tooltip="Education">
                     <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
                   </a>
                 </li>
-                <li>
+                <li onclick="work_select()">
                   <a href='#work' data-tooltip="Work">
                     <i class="fa fa-briefcase fa-2x" aria-hidden="true"></i>
                   </a>
@@ -75,15 +75,18 @@
                     <i class="fa fa-cubes fa-2x" aria-hidden="true"></i>
                   </a>
                 </li>
+                <li>
+                  <a href='#skills' data-tooltip="Skills">
+                    <i class="fa fa-bar-chart fa-2x" aria-hidden="true"></i>
+                  </a>
+                </li>
             </ul>
          </div>
-          
           
           <!-- MENU CONTENT -->
           
           <div id="content" class="content">
               <div id="edu" class="edu">
-                  <h4>Education</h4>
                   <br>
                   <p>Virginia Tech</p>
                   <p>Architecture (B.Arch)</p>
@@ -99,9 +102,21 @@
               </div>
               <div id="code" class="code">
                   <p>Projects</p>
+                  <p>Assignments</p>
+                  <p>UI/UX</p>
               </div>
               <div id="arch" class="arch">
                   <p>Projects</p>
+                  <p>Assignments</p>
+                  <p>Competitions</p>
+                  <p>Thesis</p>
+              </div>
+              <div id="skills" class="skills">
+                  <p>Piano</p>
+                  <p>Ukulele</p>
+                  <p>Video Games</p>
+                  <p>Google Sketchup</p>
+                  <p>AutoCAD</p>
               </div>
           </div>
                   
