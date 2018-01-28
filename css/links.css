@@ -1,0 +1,46 @@
+.social-media div {
+    float: left;
+    width: auto;
+    padding: 0.5em;
+    margin: 1em;
+    cursor: pointer;
+    border-color: white;
+    border-style: solid;
+    border-radius: 2em;
+}
+
+.social-media .linkedin:hover {
+    border-color: #9400D3;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: black;
+    width: auto;
+}
+
+
+.social-media .devpost:hover {
+    border-color: #4B0082;
+}
+
+
+.social-media .github:hover {
+    border-color: #0000FF;
+}
+
+.social-media .twitter:hover {
+    border-color: #00FF00;
+}
+
+.social-media .twitch:hover {
+    border-color: #FFFF00;
+}
+
+.social-media .tumblr:hover {
+    border-color: #FF7F00;
+}
+
+.social-media .youtube:hover {
+    border-color: #FF0000;
+}

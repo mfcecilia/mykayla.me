@@ -1,0 +1,76 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.intro
+{
+    width: auto;
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+#name
+{
+    font-weight: 300;
+    font-size: 150;
+    width: auto;
+    order: 1;
+}
+
+#titles
+{
+    padding: 1em;
+    font-weight: 200;
+    font-size: 50;
+    width: auto;
+    order: 2;
+}
+
+#line {
+    font-weight: 500;
+    font-weight: bolder;
+    font-size: 30;
+    color: #ccc;
+    order: 3;
+}
+
+.social-media
+{
+    font-weight: lighter;
+    font-size: 25;
+    width: auto;
+    padding: 1em;
+    order: 4;
+}
+
+.menu {
+    
+    width: auto;
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 1em;
+    order: 5;
+}
+
+
+.content {
+    order: 6;
+    width: auto;
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: column;
+    margin: auto;
+    padding: 3em;
+}
+
+@-ms-viewport{
+  width: device-width;
+}
