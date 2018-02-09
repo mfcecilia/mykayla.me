@@ -1,5 +1,8 @@
 html {
     font-family: 'Open Sans', sans-serif;
+    padding-top: 5em;
+    margin-top: 5em;
+    overflow: visible;
 }
 
 .intro
@@ -13,6 +16,7 @@ html {
     align-items: center;
     -webkit-justify-content: center;
     justify-content: center;
+    overflow: visible;
 }
 
 #name
@@ -21,6 +25,7 @@ html {
     font-size: 150;
     width: auto;
     order: 1;
+    overflow: visible;
 }
 
 #titles
