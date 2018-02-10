@@ -8,7 +8,6 @@ html {
 .intro
 {
     width: auto;
-    height: 100%;
     display: -webkit-flex;
     display: flex;
     flex-direction: column;
@@ -25,7 +24,7 @@ html {
 #name
 {
     font-weight: 300;
-    font-size: 100;
+    font-size: 150;
     width: auto;
     order: 1;
     overflow: visible;
