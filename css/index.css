@@ -1,7 +1,7 @@
 html {
     font-family: 'Open Sans', sans-serif;
-    padding-top: 5em;
-    margin-top: 5em;
+    margin-top: 0;
+    margin-bottom: auto;
     overflow: visible;
 }
 
@@ -17,6 +17,9 @@ html {
     -webkit-justify-content: center;
     justify-content: center;
     overflow: visible;
+    margin-top: 0;
+    margin-bottom: auto;
+    text-align: center;
 }
 
 #name
@@ -26,6 +29,12 @@ html {
     width: auto;
     order: 1;
     overflow: visible;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: auto;
 }
 
 #titles
@@ -52,6 +61,8 @@ html {
     width: auto;
     padding: 1em;
     order: 4;
+    align-items: center;
+    text-align: center;
 }
 
 .menu {
@@ -64,7 +75,6 @@ html {
     padding: 1em;
     order: 5;
 }
-
 
 .content {
     order: 6;
