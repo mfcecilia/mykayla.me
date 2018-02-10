@@ -25,11 +25,10 @@ html {
 #name
 {
     font-weight: 300;
-    font-size: 150;
+    font-size: 100;
     width: auto;
     order: 1;
     overflow: visible;
-    height: 50vh;
     justify-content: center;
     align-items: center;
     text-align: center;
