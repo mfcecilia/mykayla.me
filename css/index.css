@@ -88,7 +88,12 @@ html {
 }
 
 @media (max-width: 500px) {
-    .center {
+    #name {
         text-align: center;
+        font-size: 70;
+    }
+    #titles {
+        text-align: center;
+        font-size: 30;
     }
 }
