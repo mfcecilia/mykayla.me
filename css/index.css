@@ -20,6 +20,8 @@ html {
     margin-bottom: auto;
     text-align: center;
     flex-wrap: wrap;
+    background-color: black;
+    color: white;
 }
 
 #name
