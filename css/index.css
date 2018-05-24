@@ -5,6 +5,11 @@ html {
     overflow: visible;
 }
 
+body {
+    background-color: black;
+    color: white;
+}
+
 .intro
 {
     width: auto;
@@ -20,6 +25,8 @@ html {
     margin-bottom: auto;
     text-align: center;
     flex-wrap: wrap;
+    background-color: black;
+    color: white;
 }
 
 #name
