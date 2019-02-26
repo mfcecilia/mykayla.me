@@ -18,28 +18,24 @@
 
 
 .social-media .linkedin:hover {
-    border-color: #9400D3;
-}
-
-
-.social-media .devpost:hover {
     border-color: #4B0082;
 }
 
 
-.social-media .github:hover {
+.social-media .devpost:hover {
     border-color: #0000FF;
 }
 
-.social-media .twitter:hover {
+
+.social-media .github:hover {
     border-color: #00FF00;
 }
 
-.social-media .twitch:hover {
+.social-media .twitter:hover {
     border-color: #FFFF00;
 }
 
-.social-media .tumblr:hover {
+.social-media .twitch:hover {
     border-color: #FF7F00;
 }
 
