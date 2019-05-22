@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+hr {
+    max-width: 30%;
+}

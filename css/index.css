@@ -107,6 +107,17 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+
+.writing {
+    color: white;
+    text-align: center;
+    margin: 5%;
+}
+
+.writing a {
+    text-decoration: none;
+    color: white;
+}
 .menu {
     
     width: auto;
