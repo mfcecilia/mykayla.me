@@ -108,6 +108,12 @@ body {
     flex-wrap: wrap;
 }
 
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .writing {
     color: white;
     text-align: center;
@@ -115,6 +121,17 @@ body {
 }
 
 .writing a {
+    text-decoration: none;
+    color: white;
+}
+
+.architecture {
+    color: white;
+    text-align: center;
+    margin: 5%;
+}
+
+.architecture a {
     text-decoration: none;
     color: white;
 }
