@@ -139,6 +139,18 @@ hr {
     text-decoration: none;
     color: white;
 }
+
+.gamedev {
+    color: white;
+    text-align: center;
+    margin: 5%;
+}
+
+.gamedev a {
+    text-decoration: none;
+    color: white;
+}
+
 .menu {
     
     width: auto;
