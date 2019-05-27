@@ -108,6 +108,10 @@ body {
     flex-wrap: wrap;
 }
 
+hr {
+    max-width: 50%;
+}
+
 .projects {
     display: flex;
     flex-direction: row;
