@@ -151,6 +151,17 @@ hr {
     color: white;
 }
 
+.webdev {
+    color: white;
+    text-align: center;
+    margin: 5%;
+}
+
+.webdev a {
+    text-decoration: none;
+    color: white;
+}
+
 .menu {
     
     width: auto;
