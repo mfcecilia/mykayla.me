@@ -3,12 +3,10 @@ html {
     margin-top: 0;
     margin-bottom: auto;
     overflow: visible;
-    text-align: center;
 }
 
 body {
     background-color: black;
-    text-align: center;
 }
 
 .animate {
@@ -50,6 +48,7 @@ body {
     font-style: italic;
     max-width: 50%;
     margin: auto;
+    text-align: center;
 }
 
 .intro
@@ -212,10 +211,6 @@ hr {
     flex-flow: column;
     margin: auto;
     padding: 3em;
-}
-
-.resume {
-    text-align: center;
 }
 
 .contact {

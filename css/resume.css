@@ -1,0 +1,12 @@
+.resume {
+    background-color: white;
+    padding: 3%;
+}
+
+.resume h1 {
+    text-align: center;
+}
+
+strong {
+    color: purple;
+}
