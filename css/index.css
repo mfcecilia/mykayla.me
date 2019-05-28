@@ -116,6 +116,9 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 3%;
+    padding: 3%;
+    flex-wrap: wrap;
 }
 
 .writing {
