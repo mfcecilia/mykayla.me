@@ -143,6 +143,12 @@ hr {
     text-align: center;
 }
 
+.work p {
+    font-style: italic;
+    max-width: 50%;
+    margin: auto;
+}
+
 .writing {
     color: grey;
     text-align: center;
