@@ -3,11 +3,12 @@ html {
     margin-top: 0;
     margin-bottom: auto;
     overflow: visible;
+    text-align: center;
 }
 
 body {
     background-color: black;
-    color: white;
+    text-align: center;
 }
 
 .animate {
@@ -44,6 +45,13 @@ body {
 	animation-name: fadeIn;
 }
 
+.container p {
+    color: white;
+    font-style: italic;
+    max-width: 50%;
+    margin: auto;
+}
+
 .intro
 {
     width: auto;
@@ -75,13 +83,15 @@ body {
     text-align: center;
     margin-top: 0;
     margin-bottom: auto;
+    max-width: 95%;
+    font-size: 5.5em;
 }
 
 #titles
 {
     padding: 1em;
     font-weight: 200;
-    font-size: 50;
+    font-size: 1.5em;
     width: auto;
     order: 2;
 }
@@ -116,53 +126,65 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 3%;
+    margin: 0;
     padding: 3%;
     flex-wrap: wrap;
+    background-color: white;
+    color: grey;
+}
+
+.work {
+    background-color: white;
+    color: grey;
+    text-align: center;
+}
+
+.work h1 {
+    text-align: center;
 }
 
 .writing {
-    color: white;
+    color: grey;
     text-align: center;
     margin: 5%;
 }
 
 .writing a {
     text-decoration: none;
-    color: white;
+    color: grey;
 }
 
 .architecture {
-    color: white;
+    color: grey;
     text-align: center;
     margin: 5%;
 }
 
 .architecture a {
     text-decoration: none;
-    color: white;
+    color: grey;
 }
 
 .gamedev {
-    color: white;
+    color: grey;
     text-align: center;
     margin: 5%;
 }
 
 .gamedev a {
     text-decoration: none;
-    color: white;
+    color: grey;
 }
 
 .webdev {
-    color: white;
+    color: grey;
     text-align: center;
     margin: 5%;
 }
 
 .webdev a {
     text-decoration: none;
-    color: white;
+    color: grey;
 }
 
 .menu {
