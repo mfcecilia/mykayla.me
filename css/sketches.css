@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+img {
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+hr {
+    max-width: 30%;
+}
+
+.sub-page-header {
+    color: white;
+    background-color: black;
+    top: 0;
+}
+
+.sub-page-header a {
+    text-decoration: none;
+    color: white;
+}

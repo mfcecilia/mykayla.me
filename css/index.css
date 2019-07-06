@@ -192,6 +192,17 @@ hr {
     color: grey;
 }
 
+.sketches {
+    color: grey;
+    text-align: center;
+    margin: 5%;
+}
+
+.sketches a {
+    text-decoration: none;
+    color: grey;
+}
+
 .menu {
     
     width: auto;
