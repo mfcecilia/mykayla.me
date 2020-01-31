@@ -24,3 +24,8 @@ hr {
     text-decoration: none;
     color: white;
 }
+
+p {
+    max-width: 50%;
+    margin: auto;
+}
