@@ -138,6 +138,7 @@ hr {
     text-align: center;
 }
 
+
 .work h1 {
     text-align: center;
 }
@@ -148,10 +149,16 @@ hr {
     margin: auto;
 }
 
+
 .writing {
     color: grey;
     text-align: center;
     margin: 5%;
+    padding: 5%;
+}
+
+.writing:hover {
+    background-color: azure;
 }
 
 .writing a {
@@ -163,6 +170,11 @@ hr {
     color: grey;
     text-align: center;
     margin: 5%;
+    padding: 5%;
+}
+
+.architecture:hover {
+    background-color: papayawhip;
 }
 
 .architecture a {
@@ -174,6 +186,11 @@ hr {
     color: grey;
     text-align: center;
     margin: 5%;
+    padding: 5%;
+}
+
+.gamedev:hover {
+    background-color: mistyrose;
 }
 
 .gamedev a {
@@ -185,6 +202,11 @@ hr {
     color: grey;
     text-align: center;
     margin: 5%;
+    padding: 5%;
+}
+
+.webdev:hover {
+    background-color:aliceblue;
 }
 
 .webdev a {
@@ -196,6 +218,11 @@ hr {
     color: grey;
     text-align: center;
     margin: 5%;
+    padding: 5%;
+}
+
+.sketches:hover {
+    background-color: lightgoldenrodyellow;
 }
 
 .sketches a {
