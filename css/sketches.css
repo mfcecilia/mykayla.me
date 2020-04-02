@@ -35,3 +35,8 @@ p {
     margin: auto;
     flex-wrap: wrap;
 }
+
+.img-tile img {
+    max-width: 30%;
+    margin: auto;
+}
