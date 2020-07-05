@@ -251,6 +251,10 @@ hr {
     padding: 3em;
 }
 
+.LI-profile-badge {
+    text-align: center;
+}
+
 .contact {
     text-align: center;
 }
