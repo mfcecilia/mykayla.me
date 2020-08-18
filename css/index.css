@@ -150,106 +150,30 @@ hr {
 }
 
 
-.writing {
-    color: grey;
+.stories {
+    color: white;
     text-align: center;
-    margin: 5%;
-    padding: 5%;
-}
-
-.writing:hover {
-    background-color: azure;
-}
-
-.writing a {
-    text-decoration: none;
-    color: grey;
-}
-
-.architecture {
-    color: grey;
-    text-align: center;
-    margin: 5%;
-    padding: 5%;
-}
-
-.architecture:hover {
-    background-color: papayawhip;
-}
-
-.architecture a {
-    text-decoration: none;
-    color: grey;
-}
-
-.gamedev {
-    color: grey;
-    text-align: center;
-    margin: 5%;
-    padding: 5%;
-}
-
-.gamedev:hover {
-    background-color: mistyrose;
-}
-
-.gamedev a {
-    text-decoration: none;
-    color: grey;
-}
-
-.webdev {
-    color: grey;
-    text-align: center;
-    margin: 5%;
-    padding: 5%;
-}
-
-.webdev:hover {
-    background-color:aliceblue;
-}
-
-.webdev a {
-    text-decoration: none;
-    color: grey;
-}
-
-.sketches {
-    color: grey;
-    text-align: center;
-    margin: 5%;
-    padding: 5%;
-}
-
-.sketches:hover {
-    background-color: lightgoldenrodyellow;
-}
-
-.sketches a {
-    text-decoration: none;
-    color: grey;
-}
-
-.menu {
-    
-    width: auto;
-    display: flex;
-    display: -webkit-flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    padding: 1em;
-    order: 5;
-}
-
-.content {
-    order: 6;
-    width: auto;
-    display: flex;
-    display: -webkit-flex;
-    flex-flow: column;
     margin: auto;
-    padding: 3em;
+    font-style: italic;
+    max-width: 50%;
+    border: 1px white;
 }
+
+.stories div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.stories div a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 1%;
+    margin: auto;
+}
+
+
 
 .LI-profile-badge {
     text-align: center;
