@@ -213,3 +213,7 @@ footer a {
     color: white;
     font-style: italic;
 }
+
+footer a:hover{
+    color: grey;
+}
