@@ -1,6 +1,8 @@
 # mykayla.me
 My personal site from scratch without a template
 
+Credits:
+Oregon Pools digital art -- Joseph Mekonen @vitrashark https://joeymekonen.myportfolio.com/projects
 
 ####License
 
