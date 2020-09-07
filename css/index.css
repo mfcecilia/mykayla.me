@@ -163,19 +163,26 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    justify-items: center;
+}
+
+.stories div h3 {
+    padding: 3%;
 }
 
 .stories div a {
     text-decoration: none;
     color: white;
     border: 1px solid white;
-    padding: 1%;
     margin: auto;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 1%;
 }
 
 .stories div a:hover {
-    border: 2px solid #002a86;
-    color: #ffea0f;
+    border: 2px solid cornflowerblue;
+    color: cornsilk;
 }
 
 
