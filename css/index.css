@@ -149,6 +149,15 @@ hr {
     margin: auto;
 }
 
+.work a {
+    text-decoration: none;
+    color: black;
+}
+
+.work a:hover {
+    color: cornflowerblue;
+}
+
 
 .stories {
     color: white;
